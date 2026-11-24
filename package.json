@@ -1,0 +1,30 @@
+{
+  "name": "antigravity-accept-paper-swarm",
+  "version": "0.2.0",
+  "description": "Google Antigravity 2.0 multi-agent /swarm plugin for academic paper writing, adversarial peer-review simulation, manuscript revision, and point-by-point reviewer rebuttal letters.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/cxbrucewayen/antigravity-accept-paper-swarm#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cxbrucewayen/antigravity-accept-paper-swarm.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-plugin.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "scaffold": "node scripts/scaffold.mjs"
+  },
+  "keywords": [
+    "antigravity",
+    "google-antigravity",
+    "swarm",
+    "multi-agent",
+    "plugin-template",
+    "skills",
+    "hooks",
+    "gemini"
+  ]
+}
